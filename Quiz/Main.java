@@ -19,6 +19,7 @@ public class Main {
                 "Rússia",
                 "Canadá",
                 "China",
+                "Estados Unidos",
                 'B'));
 
         questoes.add(new Questao("2) Qual é a capital do Brasil?",
@@ -26,6 +27,7 @@ public class Main {
                 "Rio de Janeiro",
                 "Brasília",
                 "Salvador",
+                "Belo Horizonte",
                 'C'));
 
         questoes.add(new Questao("3) Qual é o maior oceano do planeta?",
@@ -33,6 +35,7 @@ public class Main {
                 "Oceano Índico",
                 "Oceano Ártico",
                 "Oceano Pacífico",
+                "Oceano Antártico",
                 'D'));
 
         questoes.add(new Questao("4) Quantos estados possui o Brasil?",
@@ -40,6 +43,7 @@ public class Main {
                 "25",
                 "26",
                 "27",
+                "28",
                 'C'));
 
         questoes.add(new Questao("5) Qual é o rio mais extenso do mundo?",
@@ -47,6 +51,7 @@ public class Main {
                 "Rio Nilo",
                 "Rio Mississippi",
                 "Rio Yangtzé",
+                "Rio Mekong",
                 'A'));
 
         questoes.add(new Questao("6) Em qual continente está localizado o Egito?",
@@ -54,6 +59,7 @@ public class Main {
                 "África",
                 "Europa",
                 "Oceania",
+                "América",
                 'B'));
 
         questoes.add(new Questao("7) Qual é a capital da França?",
@@ -61,6 +67,7 @@ public class Main {
                 "Madrid",
                 "Paris",
                 "Lisboa",
+                "Berlim",
                 'C'));
 
         questoes.add(new Questao("8) Qual é o maior continente do mundo?",
@@ -68,6 +75,7 @@ public class Main {
                 "Europa",
                 "América",
                 "Ásia",
+                "Oceania",
                 'D'));
 
         questoes.add(new Questao("9) Qual é o menor país do mundo em extensão territorial?",
@@ -75,6 +83,7 @@ public class Main {
                 "Vaticano",
                 "Luxemburgo",
                 "Malta",
+                "Liechtenstein",
                 'B'));
 
         questoes.add(new Questao("10) Qual destes países está localizado na América do Sul?",
@@ -82,6 +91,7 @@ public class Main {
                 "Portugal",
                 "Chile",
                 "Canadá",
+                "Espanha",
                 'C'));
 
         questoes.add(new Questao("11) Qual é a capital da Argentina?",
@@ -89,6 +99,7 @@ public class Main {
                 "Montevidéu",
                 "Santiago",
                 "Lima",
+                "Assunção",
                 'A'));
 
         questoes.add(new Questao("12) Qual é o maior deserto quente do mundo?",
@@ -96,6 +107,7 @@ public class Main {
                 "Deserto do Saara",
                 "Deserto da Arábia",
                 "Deserto de Gobi",
+                "Deserto de Kalahari",
                 'B'));
 
         questoes.add(new Questao("13) Qual estado brasileiro possui a maior extensão territorial?",
@@ -103,6 +115,7 @@ public class Main {
                 "Pará",
                 "Mato Grosso",
                 "Minas Gerais",
+                "Bahia",
                 'A'));
 
         questoes.add(new Questao("14) Em qual continente está localizado o Japão?",
@@ -110,6 +123,7 @@ public class Main {
                 "Ásia",
                 "África",
                 "Oceania",
+                "América",
                 'B'));
 
         questoes.add(new Questao("15) Qual é a capital da Austrália?",
@@ -117,6 +131,7 @@ public class Main {
                 "Melbourne",
                 "Canberra",
                 "Brisbane",
+                "Perth",
                 'C'));
 
         for (Questao questao : questoes) {
@@ -135,8 +150,9 @@ public class Main {
         System.out.println("Foram " + acertos + " acertos");
         double porcentagem = ((acertos * 100.0) / questoes.size());
         System.out.printf("Porcentagem de acertos: %.2f%% %n", porcentagem);
+
         scanner.close();
+
         System.out.println("Obrigado por participar do quiz");
     }
 }
-
