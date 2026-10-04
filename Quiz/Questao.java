@@ -5,14 +5,16 @@ public class Questao {
     private String alternativaB;
     private String alternativaC;
     private String alternativaD;
+    private String alternativaE;
     private char respostaCorreta;
 
-    public Questao(String pergunta, String alternativaA, String alternativaB, String alternativaC, String alternativaD, char respostaCorreta) {
+    public Questao(String pergunta, String alternativaA, String alternativaB, String alternativaC, String alternativaD, String alternativaE, char respostaCorreta) {
         this.pergunta = pergunta;
         this.alternativaA = alternativaA;
         this.alternativaB = alternativaB;
         this.alternativaC = alternativaC;
         this.alternativaD = alternativaD;
+        this.alternativaE = alternativaE;
         this.respostaCorreta = respostaCorreta;
     }
 
@@ -22,6 +24,7 @@ public class Questao {
         System.out.println("B) " + alternativaB);
         System.out.println("C) " + alternativaC);
         System.out.println("D) " + alternativaD);
+        System.out.println("E) " + alternativaE);
     }
 
     public boolean verificarRespostaCorreta( char resposta) {
